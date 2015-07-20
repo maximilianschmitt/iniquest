@@ -68,3 +68,13 @@ Ip.prepareForRequest = function(req) {
   return fetch('http://ip.jsontest.com').then(res => res.data);
 };
 ```
+
+## Todo
+
+1. Add ability for parent `RouteHandler`s to pass params to the `prepareForRequest` of a child `RouteHandler`, maybe like this:
+    ```javascript
+    Component.prepareChildForRequest(initialState, childRoute) : opts
+    Component.prepareForRequest(req, opts) : initialState
+    ```
+
+2. Find a simple solution so that (1) can optionally run `prepareForRequest`-calls in parallel if `opts` for the child's preparation are not dependent on the parent's `prepareForRequest`
