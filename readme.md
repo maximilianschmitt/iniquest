@@ -1,6 +1,6 @@
 # iniquest
 
-A lightweight (~25 LOC) library to help with async data fetching before rendering with [react-router](https://github.com/rackt/react-router).
+A lightweight (~30 LOC) library to help with async data fetching before rendering with [react-router](https://github.com/rackt/react-router).
 
 ## Installation
 
