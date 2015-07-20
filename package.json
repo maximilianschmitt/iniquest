@@ -1,0 +1,29 @@
+{
+  "name": "iniquest",
+  "version": "0.0.1",
+  "description": "Initialize your RouteHandlers with async data before rendering",
+  "keywords": [
+    "react",
+    "react-component",
+    "react-mixin",
+    "react-router",
+    "isomorphic",
+    "universal"
+  ],
+  "main": "iniquest",
+  "homepage": "https://github.com/maximilianschmitt/iniquest",
+  "bugs": "https://github.com/maximilianschmitt/iniquest/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Maximilian Schmitt",
+    "email": "maximilian.schmitt@googlemail.com",
+    "url": "http://maximilianschmitt.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maximilianschmitt/iniquest.git"
+  },
+  "dependencies": {
+    "rsvp": "^3.0.18"
+  }
+}
