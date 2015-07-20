@@ -33,6 +33,24 @@ app.use(function(req, res, next) {
 });
 ```
 
+### app-component.js
+
+Here, `RouteHandler` will be the `Ip` component below if the user navigates to `/ip`.
+
+```javascript
+class App extends React.Component {
+  render() {
+    return (
+      <div className="app">
+        <RouteHandler initialState={this.initialChildState()} />
+      </div>
+    );
+  }
+}
+
+mixin.onClass(App, iniquest.InitialChildState);
+```
+
 ### ip-component.js
 
 ```javascript
@@ -49,20 +67,4 @@ mixin.onClass(Ip, iniquest.InitialStateFromProps);
 Ip.prepareForRequest = function(req) {
   return fetch('http://ip.jsontest.com').then(res => res.data);
 };
-```
-
-### app-component.js
-
-```javascript
-class App extends React.Component {
-  render() {
-    return (
-      <div className="app">
-        <RouteHandler initialState={this.initialChildState()} />
-      </div>
-    );
-  }
-}
-
-mixin.onClass(App, iniquest.InitialChildState);
 ```
