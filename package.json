@@ -1,6 +1,6 @@
 {
   "name": "iniquest",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Initialize your RouteHandlers with async data before rendering",
   "keywords": [
     "react",
