@@ -1,6 +1,6 @@
 {
   "name": "iniquest",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A lightweight library to help with async data fetching before rendering with react-router.",
   "keywords": [
     "react",
