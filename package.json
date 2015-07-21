@@ -14,7 +14,7 @@
     "build": "mkdir -p dist && babel iniquest.js --out-file dist/iniquest.js",
     "prepublish": "npm run build"
   },
-  "main": "dist/iniquest",
+  "main": "./dist/iniquest",
   "homepage": "https://github.com/maximilianschmitt/iniquest",
   "bugs": "https://github.com/maximilianschmitt/iniquest/issues",
   "license": "MIT",
